@@ -1,32 +1,41 @@
 body {
     font-family: Arial, sans-serif;
+    height: 100vh;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
 }
 
 .container {
     display: flex;
-    flex-direction: row-reverse; /* Inverte a ordem das seções */
+    flex-direction: row-reverse;
+    flex: 1;
+}
+
+.white-section, .purple-section {
+    padding: 20px;
+    flex: 1;
 }
 
 .white-section {
     background-color: white;
-    padding: 20px;
-    flex: 1;
 }
 
 .purple-section {
     background-color: #6a1b9a;
     color: white;
-    padding: 20px;
-    flex: 1;
 }
+
 
 .stats1, .stats2 {
     display: flex;
-    flex-direction: row; /* Alinha os blocos em coluna */
+    flex-direction: row;
     gap: 20px;
 }
+
+
 
 .stats div {
     flex: 1;
@@ -34,7 +43,8 @@ body {
 }
 
 .social-links {
-    margin-top: 20px;
+    margin-top: 150px;
+    
 }
 
 .links {
@@ -49,3 +59,23 @@ body {
     text-decoration: none;
     margin: 0 10px;
 }
+
+.highlight {
+    color: green
+}
+
+
+.titulo-grande {font-size: 3em; } /* Ajuste o valor conforme necessário */
+
+.grande2  {font-size: 2em; 
+color: #6a1b9a;}
+
+.Boas-vindas {font-size: 4em;}
+
+.Comece-por-aqui {font-size: 2em;}
+
+
+
+
+
+         
