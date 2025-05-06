@@ -74,8 +74,33 @@ color: #6a1b9a;}
 
 .Comece-por-aqui {font-size: 2em;}
 
+#img_1{
+    height: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.espaço{
+    margin-top: 100px;
+    
+}
+
+.linha{
+    margin-top: 100px;
+
+}
+
+.letra1{
+    color: #6a1b9a;
+}
 
 
+
+.lado{
+    margin-left: 200px; /* Ajuste o valor conforme necessário */
+    margin-top: -210px; 
+
+}
 
 
          
